@@ -8,7 +8,13 @@ module.exports = {
     resolve : {
         extensions : ['.js','.jsx']
     },
-
+    devServer : {
+        contentBase: __dirname + "dist",
+        inline: true,
+        hot: true,
+        host: "localhost",
+        port: 5500
+    },
     entry : {
         app : ['./client'],
     },

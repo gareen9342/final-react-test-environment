@@ -9,6 +9,12 @@ module.exports = {
         extensions : ['.js','.jsx']
     },
 
+    devServer: {
+        host: 'localhost',  // 개발 서버의 url
+        port: 2021,   // basically 3000
+        open: true,   // 서버 실행시 브라우저 자동 실행할건지
+    },
+
     entry : {
         app : ['./client'],
     },

@@ -8,13 +8,13 @@ module.exports = {
     resolve : {
         extensions : ['.js','.jsx']
     },
-    devServer : {
-        contentBase: __dirname + "dist",
-        inline: true,
-        hot: true,
-        host: "localhost",
-        port: 5500
+
+    devServer: {
+        host: 'localhost',  // 개발 서버의 url
+        port: 2021,   // basically 3000
+        open: true,   // 서버 실행시 브라우저 자동 실행할건지
     },
+
     entry : {
         app : ['./client'],
     },

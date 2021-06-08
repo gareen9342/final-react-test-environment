@@ -45,7 +45,3 @@ module.exports = {
     open: true,   // 서버 실행시 브라우저 자동 실행할건지
   },
 };
-
-// 자 웹팩 설정이 잘 됐는지 보자구
-// package.json
-// "start": "webpack" 추가하고 만들었으면 src/index.js 만들고 가셍

@@ -1,7 +1,7 @@
 import React from 'react';
 const App = () => (
   <div>
-    Hello, Webpack!
+    Hello, Webpack!!!!
   </div>
 );
 export default App;

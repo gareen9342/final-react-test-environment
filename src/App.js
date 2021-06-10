@@ -8,7 +8,7 @@ import "./index.css";
 export default function App() {
   return (
     <Router>
-      <div class="w-64 h-32 mx-auto">
+      <div className="w-64 h-32 mx-auto">
         <ul className="flex items-stretch pl-16 p-4 rounded-full mx-auto bg-black text-yellow-600">
           <li className="active:bg-green-700">
             <Link to="/">Home</Link>
